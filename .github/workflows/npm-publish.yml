@@ -10,13 +10,18 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      # 生成静态文件
+      - name: Build
+        run: npm install && npm run build
+
       - name: Publish if version has been updated
         uses: pascalgn/npm-publish-action@1.3.7
         with: # All of theses inputs are optional
           tag_name: "v%s"
           tag_message: "v%s"
           create_tag: "true"
-          commit_pattern: "^Release (\\S+)"
+          commit_pattern: "^build: publish (\\S+)"
           workspace: "."
           publish_command: "yarn"
           publish_args: "--non-interactive"
