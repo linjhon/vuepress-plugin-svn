@@ -1,0 +1,5 @@
+.history
+docs
+.github
+package-lock.json
+tsconfig.*
