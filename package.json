@@ -1,0 +1,41 @@
+{
+  "name": "vuepress-plugin-svn",
+  "version": "0.1.0",
+  "description": "svn for vuepress plugin",
+  "keywords": [
+    "vuepress-plugin",
+    "vuepress",
+    "plugin",
+    "svn"
+  ],
+  "homepage": "https://github.com/vuepress-plugin-svn",
+  "bugs": {
+    "url": "https://github.com/vuepress-plugin-svn/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress-plugin-svn.git"
+  },
+  "license": "MIT",
+  "author": "linjhon",
+  "main": "lib/node/index.js",
+  "types": "lib/node/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "clean": "rimraf lib *.tsbuildinfo"
+  },
+  "dependencies": {
+    "execa": "^5.0.0",
+    "xml2js": "^0.4.23"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4",
+    "@vuepress/core": "2.0.0-beta.12"
+  }
+}
