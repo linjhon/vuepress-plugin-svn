@@ -33,6 +33,5 @@ export const getContributors = async (
 
   const { logentry }: LogentryJson = await xmlParse.parseStringPromise(stdout);
   const logentryList = Array.isArray(logentry) ? logentry : [logentry];
-  console.log("logentryList", logentryList);
   return getCommits(logentryList);
 };
