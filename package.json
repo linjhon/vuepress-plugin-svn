@@ -8,13 +8,13 @@
     "plugin",
     "svn"
   ],
-  "homepage": "https://github.com/vuepress-plugin-svn",
+  "homepage": "https://github.com/linjhon/vuepress-plugin-svn",
   "bugs": {
-    "url": "https://github.com/vuepress-plugin-svn/issues"
+    "url": "https://github.com/linjhon/vuepress-plugin-svn/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuepress-plugin-svn.git"
+    "url": "git+https://github.com/linjhon/vuepress-plugin-svn.git"
   },
   "license": "MIT",
   "author": "linjhon",

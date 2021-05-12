@@ -10,4 +10,23 @@
 
 Use it the same way as [@vuepress/plugin-git](https://vuepress.github.io/reference/plugin/git.html)
 
+## 安装
+
+```sh
+npm install vuepress-plugin-svn -D
+```
+
+## 使用
+
+修改配置文件 `.vuepress/config.js`
+
+```js
+module.exports = {
+  plugins: ["pinyin-urls"],
+};
+```
+
+## 参考
+
 [svn log](http://svnbook.red-bean.com/zh/1.8/svn.ref.svn.c.log.html)
+[@vuepress/plugin-git](https://vuepress.github.io/reference/plugin/git.html)
