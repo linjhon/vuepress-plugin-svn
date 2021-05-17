@@ -22,7 +22,7 @@ npm install vuepress-plugin-svn -D
 
 ```js
 module.exports = {
-  plugins: ["pinyin-urls"],
+  plugins: ["svn"],
 };
 ```
 
